@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://franco-hasper.github.io/indexpilot-demo/sitemap.xml

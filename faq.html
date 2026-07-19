@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Preguntas frecuentes — IndexPilot</title>
+<meta name="description" content="Dudas comunes sobre la API de Indexación de Google, las cuentas de servicio, la cuota diaria y la seguridad de tus credenciales.">
+<link rel="canonical" href="https://franco-hasper.github.io/indexpilot-demo/faq.html">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <a class="brand" href="./">IndexPilot</a>
+    <nav>
+      <a href="./">Inicio</a>
+      <a href="caracteristicas.html">Características</a>
+      <a href="precios.html">Precios</a>
+      <a href="faq.html" aria-current="page">Preguntas</a>
+      <a href="contacto.html">Contacto</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+  <h1>Preguntas frecuentes</h1>
+
+  <h2>¿Garantizan que Google indexe mis páginas?</h2>
+  <p>
+    No, y desconfiá de cualquier herramienta que lo prometa. Nosotros automatizamos el envío
+    técnico a la API oficial. La decisión de indexar y de posicionar es exclusivamente de Google
+    y depende de la calidad de tu contenido y de sus políticas.
+  </p>
+
+  <h2>¿Necesitan mi contraseña de Google?</h2>
+  <p>
+    Nunca. Se trabaja con una cuenta de servicio: vos generás sus credenciales en Google Cloud y
+    le das permisos en tu Search Console. Podés quitarle el acceso cuando quieras, sin
+    depender de nosotros.
+  </p>
+
+  <h2>¿Por qué el límite es de 200 URLs por día?</h2>
+  <p>
+    Es la cuota que Google asigna por defecto a cada proyecto que usa la API de Indexación. No es
+    una restricción nuestra. En algunos casos se puede solicitar una ampliación directamente a
+    Google.
+  </p>
+
+  <h2>¿Qué pasa si mi sitemap tiene miles de URLs?</h2>
+  <p>
+    Se encolan todas y se van enviando por lotes, día a día, hasta completarlas. No se pierde
+    ninguna ni se supera la cuota.
+  </p>
+
+  <h2>¿Dónde se guardan mis credenciales?</h2>
+  <p>
+    Cifradas con AES-256-GCM en nuestra base de datos. Se descifran únicamente en el servidor y
+    solo en el momento de enviar una URL a Google. Nunca se envían al navegador.
+  </p>
+
+  <h2>¿Puedo administrar sitios de clientes?</h2>
+  <p>
+    Sí. Cada proyecto es independiente, con su propio sitemap, sus credenciales y su cuota. Es el
+    caso de uso típico de las agencias.
+  </p>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>© 2026 IndexPilot</span>
+    <span><a href="contacto.html">Contacto</a></span>
+  </div>
+</footer>
+</body>
+</html>
