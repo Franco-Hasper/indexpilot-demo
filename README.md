@@ -16,13 +16,19 @@ robots.txt            Permite rastreo + apunta al sitemap
 styles.css            Estilos compartidos
 ```
 
-## Publicar en GitHub Pages
+## Publicar (Vercel)
 
-1. Crear un repo **público** llamado `indexpilot-demo`.
-2. Subir estos archivos a la rama `main`.
-3. En el repo: **Settings → Pages → Source: Deploy from a branch → Branch: `main` / `(root)`** → Save.
-4. A los pocos minutos queda disponible en:
-   `https://franco-hasper.github.io/indexpilot-demo/`
+El sitio se publica con Vercel CLI, directo desde esta carpeta:
+
+```bash
+vercel deploy --prod --yes
+```
+
+Queda disponible en: `https://indexpilot-demo.vercel.app/`
+
+> Nota: originalmente se intentó GitHub Pages, pero un outage de GitHub Actions
+> (2026-07-19) bloqueó los deploys y se migró a Vercel. El repo en GitHub sigue
+> siendo el origen del código; Vercel solo hostea.
 
 ## Importante
 
